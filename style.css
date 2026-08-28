@@ -50,18 +50,24 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 0 auto; 
-    font-size: 6mm;  
+    font-size: 6mm; 
+    transition-duration: 0.4s;
+} 
+
+button:hover {
+  background-color: #4cc250; 
 }
 
+
 .imgLeft {
-    margin-left: 145px;
-    margin-right: 250px;
+    margin-left: 275px;
+    margin-right: 150px;
 }
 
 img{
-    border-radius: 30px;
-    
+    border-radius: 30px;  
 }
+
 a:link {
     text-decoration: none;
 }
