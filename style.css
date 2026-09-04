@@ -97,9 +97,20 @@ a:link {
 a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #2f9e44;
+    text-decoration: underline !important;
 }
 
-.nextButton {
+.buttonRow ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.nextButtonOne {
     background: #b2f2bb;
     border: solid #099268;
     border-radius: 12px;
@@ -109,7 +120,21 @@ a {
     margin-right: 5px;
 }
 
-.nextButton:hover {
+.nextButtonOne:hover {
+    background-color: #9acea1; 
+}
+
+.nextButtonTwo {
+    background: #b2f2bb;
+    border: solid #099268;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+    padding: 5px 50px;
+    margin-right: 5px;
+}
+
+.nextButtonTwo:hover {
     background-color: #9acea1; 
 }
 
@@ -119,6 +144,28 @@ a {
     font-size: medium;
     font-weight: 900;
 }
+
+.backButtonOne {
+    background: #b2f2bb;
+    border: solid #099268;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+    padding: 5px 50px;
+    margin-left: 5px;
+}
+
+.backText {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #099268;
+    font-size: medium;
+    font-weight: 900;
+}
+
+.backButtonOne:hover {
+    background-color: #9acea1; 
+}
+
 
 .questionName {
     font-size: 3rem;
