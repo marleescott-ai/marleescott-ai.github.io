@@ -206,3 +206,18 @@ a {
     max-width: 500px;   
     margin: 0 auto; 
 }
+
+.hardQuestionButton {
+    background: #74df74;
+    border: 2px solid green;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+input {
+    margin-left: 160px;
+    margin-top: 16px;
+}
