@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biology Bonanza</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <nav>
@@ -16,17 +17,23 @@
             <a class="navBar" href="results.html">Results</a>
         </ul>
     </nav>
+    
     <div>
         <button class="nextButtonOne"><a href=questionTwo.html class="nextText">Next</a></button>
     </div>
+    
     <h4>Multi choice simple question</h4>
     <h2 class="questionName">Cell</h2>
+    <p class="answerText" id="answer1"></p>
     <div class="questionLayout">
-        <button class="questionButton"><p class="questionText">Basic unit of life</p></button>
-        <button class="questionButton"><p class="questionText">Anything that has mass</p></button>
-        <button class="questionButton"><p class="questionText">The basic building block of all matter</p> </button>
-        <button class="questionButton"><p class="questionText">Genetic make up that creates certain body parts</p> </button>
+        <button class="questionButton" onclick="checkQuestion1('correct')"><p class="questionText">Basic unit of life</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Anything that has mass</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">The basic building block of all matter</p> </button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Genetic make up that creates certain body parts</p> </button>
+    
+        
     </div>
+
     <nav>
 
     </nav>

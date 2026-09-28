@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biology Bonanza</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <nav>
@@ -24,11 +25,12 @@
     </div>
     <h4>Multi choice simple question</h4>
     <h2 class="questionName">Chromosome</h2>
+    <p class="answerText" id="answer1"></p>
     <div class="questionLayout">
-        <button class="questionButton"><p class="questionText">A thread-like structure that contains DNA wrapped around a protein(histone). Found in the nucleus</p></button>
-        <button class="questionButton"><p class="questionText">DNA is inside it and its around protein inside another molecule</p> </button>
-        <button class="questionButton"><p class="questionText">The skin that is on you head that controls your hair molecules</p> </button>
-        <button class="questionButton"><p class="questionText">A helix-shaped, double-stranded, polynucleotide molecule which has H-bonds between adjacent bases. This molecule encodes genetic information</p> </button>
+        <button class="questionButton" onclick="checkQuestion1('correct')"><p class="questionText">A thread-like structure that contains DNA wrapped around a protein(histone). Found in the nucleus</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">DNA is inside it and its around protein inside another molecule</p> </button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">The skin that is on you head that controls your hair molecules</p> </button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">A helix-shaped, double-stranded, polynucleotide molecule which has H-bonds between adjacent bases. This molecule encodes genetic information</p> </button>
     </div>
     <nav>
 
