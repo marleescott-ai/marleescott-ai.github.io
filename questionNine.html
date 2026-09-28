@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biology Bonanza</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
  <nav>
@@ -24,11 +25,12 @@
     </div>
     <h4>Multi choice simple question</h4>
     <h2 class="questionName">Mutagen</h2>
+    <p class="answerText" id="answer1"></p>
     <div class="questionLayout">
-        <button class="questionButton"><p class="questionText">Genetic code in real-time, forcing immediate physical transformation rather than waiting for cellular replication</p></button>
-        <button class="questionButton"><p class="questionText">Rare protein chain that destabilizes cellular membranes, allowing a living organism to temporarily copy chains</p></button>
-        <button class="questionButton"><p class="questionText">Nervous system while radically altering the muscular structure for apex predation</p></button>
-        <button class="questionButton"><p class="questionText">Any agent that increases the chances of mutations occurring</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Genetic code in real-time, forcing immediate physical transformation rather than waiting for cellular replication</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Rare protein chain that destabilizes cellular membranes, allowing a living organism to temporarily copy chains</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Nervous system while radically altering the muscular structure for apex predation</p></button>
+        <button class="questionButton" onclick="checkQuestion1('correct')"><p class="questionText">Any agent that increases the chances of mutations occurring</p></button>
     </div>
     <nav>
 

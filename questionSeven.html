@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biology Bonanza</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <nav>
@@ -24,11 +25,12 @@
     </div>
     <h4>Multi choice simple question</h4>
     <h2 class="questionName">Mitosis</h2>
+    <p class="answerText" id="answer1"></p>
     <div class="questionLayout">
-        <button class="questionButton"><p class="questionText">Cell division that occurs in somatic cells for growth and repair</p></button>
-        <button class="questionButton"><p class="questionText">Cell division that occurs in the gonads (reproductive organs) to create gametes/ sex cells</p></button>
-        <button class="questionButton"><p class="questionText">The process where new skin cells protect the blood vessels from diseases</p></button>
-        <button class="questionButton"><p class="questionText">The proccess where every cells divide at the same time to form new body part</p></button>
+        <button class="questionButton" onclick="checkQuestion1('correct')"><p class="questionText">Cell division that occurs in somatic cells for growth and repair</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Cell division that occurs in the gonads (reproductive organs) to create gametes/ sex cells</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">The process where new skin cells protect the blood vessels from diseases</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">The proccess where every cells divide at the same time to form new body part</p></button>
     </div>
     <nav>
 

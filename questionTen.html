@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biology Bonanza</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
  <nav>
@@ -24,11 +25,12 @@
     </div>
     <h4>Multi choice simple question</h4>
     <h2 class="questionName">Gene</h2>
+    <p class="answerText" id="answer1"></p>
     <div class="questionLayout">
-        <button class="questionButton"><p class="questionText">Organelles responsible for synthesizing glucose from adenosine triphosphate (ATP) during periods of cellular stress</p></button>
-        <button class="questionButton"><p class="questionText">A short segment of DNA that codes for a protein for a trait</p></button>
-        <button class="questionButton"><p class="questionText">A membrane-bound vesicle that utilizes hydrolytic enzymes to break down folded polypeptide chains into functional nucleic acids</p></button>
-        <button class="questionButton"><p class="questionText">The physical mechanism by which oxygen gas is pulled into pulmonary tissue to oxygenate deoxygenated hemoglobin molecules</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Organelles responsible for synthesizing glucose from adenosine triphosphate (ATP) during periods of cellular stress</p></button>
+        <button class="questionButton" onclick="checkQuestion1('correct')"><p class="questionText">A short segment of DNA that codes for a protein for a trait</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">A membrane-bound vesicle that utilizes hydrolytic enzymes to break down folded polypeptide chains into functional nucleic acids</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">The physical mechanism by which oxygen gas is pulled into pulmonary tissue to oxygenate deoxygenated hemoglobin molecules</p></button>
     </div>
     <nav>
 

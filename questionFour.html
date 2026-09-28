@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biology Bonanza</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <nav>
@@ -24,11 +25,12 @@
     </div>
     <h4>Multi choice simple question</h4>
     <h2 class="questionName">Mutation</h2>
+    <p class="answerText" id="answer1"></p>
     <div class="questionLayout">
-        <button class="questionButton"><p class="questionText">A random change in the base sequence (nucleotide) in DNA that can create a new allele. It can either be continuous or discontinuous</p></button>
-        <button class="questionButton"><p class="questionText">The DNA molecule has one old strand and one new strand after DNA replication is complete</p> </button>
-        <button class="questionButton"><p class="questionText">Cell division that occurs in the gonads (reproductive organs) to create gametes/ sex cells</p> </button>
-        <button class="questionButton"><p class="questionText">Any agent that increases the chances of mutations occurring</p> </button>
+        <button class="questionButton" onclick="checkQuestion1('correct')"><p class="questionText">A permanent random change in the base sequence (nucleotide) in DNA that can create a new allele. It can either be continuous or discontinuous</p></button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">The DNA molecule has one old strand and one new strand after DNA replication is complete</p> </button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Cell division that occurs in the gonads (reproductive organs) to create gametes/ sex cells</p> </button>
+        <button class="questionButton" onclick="checkQuestion1('incorrect')"><p class="questionText">Any agent that increases the chances of mutations occurring</p> </button>
     </div>
     <nav>
 
