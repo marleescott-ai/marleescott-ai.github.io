@@ -147,27 +147,6 @@ a {
     font-weight: 900;
 }
 
-.backButtonOne {
-    background: #b2f2bb;
-    border: solid #099268;
-    border-radius: 12px;
-    transition-duration: 0.4s;
-    cursor: pointer; 
-    padding: 5px 50px;
-    margin-left: 5px;
-}
-
-.backText {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #099268;
-    font-size: medium;
-    font-weight: 900;
-}
-
-.backButtonOne:hover {
-    background-color: #9acea1; 
-}
-
 
 .questionName {
     font-size: 3rem;
