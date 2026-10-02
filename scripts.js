@@ -1,3 +1,5 @@
+
+
 function checkQuestion1(answer) {
   if (answer == 'correct'){
     document.getElementById('answer1').innerHTML = "Correct!"
@@ -5,12 +7,12 @@ function checkQuestion1(answer) {
 document.getElementById("answer1").innerHTML = "Incorrect!"
 }
 
-  const buttons = document.querySelectorAll('.questionButton');
+  const buttons = document.querySelectorAll('.questionButton')
 
   buttons.forEach(button => {
-      button.disabled = true;
+      button.disabled = true
     
-      button.classList.add('disabledButton'); 
+      button.classList.add('disabledButton')
   });
 }
 

@@ -216,3 +216,24 @@ input {
     pointer-events: none;
     background-color: #2f9e44;;
 }
+
+.retakeButton {
+    background: #b2f2bb;
+    border: solid #099268;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer; 
+    margin-top: 7rem;
+}
+
+.retakeButton:hover {
+    background-color: #9acea1; 
+}
+
+.resultsText {
+    color: #099268;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 7rem;
+    margin-top: 4rem;
+}
