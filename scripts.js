@@ -1,10 +1,20 @@
+let finalScoreOutput = document.getElementById('result');
+if (finalScoreOutput) {
+  let finalScore = localStorage.getItem('finalScore') || 0;
+  finalScoreOutput.innerHTML = finalScore + "/15";
+}
 
+function retakeQuiz() {
+  localStorage.setItem('finalScore', 0)
+}
 
 function checkQuestion1(answer) {
   if (answer == 'correct'){
     document.getElementById('answer1').innerHTML = "Correct!"
+    let score = parseInt(localStorage.getItem('finalScore')) || 0 
+    localStorage.setItem('finalScore', score + 1)
 } else {
-document.getElementById("answer1").innerHTML = "Incorrect!"
+    document.getElementById("answer1").innerHTML = "Incorrect!"
 }
 
   const buttons = document.querySelectorAll('.questionButton')
@@ -25,6 +35,9 @@ function checkQuestion11() {
     
     if (anwser == 'old strand, new strand, replication') { 
         document.getElementById('message').innerHTML = "Correct!"
+    let score = parseInt(localStorage.getItem('finalScore')) || 0 
+    localStorage.setItem('finalScore', score + 1)
+
     } else {
         document.getElementById('message').innerHTML = "Incorrect!"
     }
@@ -45,9 +58,12 @@ function checkQuestion12() {
 
   if (anwser == 'random, homologous, separate randomly') {
     document.getElementById('message').innerHTML = "Correct!"
-  } else
+    let score = parseInt(localStorage.getItem('finalScore')) || 0 
+    localStorage.setItem('finalScore', score + 1)
+
+  } else {
      document.getElementById('message').innerHTML = "Incorrect!"
-  
+  }
   const button = document.querySelectorAll('.hardQuestionButton');
 
     button.forEach(button => {
@@ -65,9 +81,12 @@ function checkQuestion13() {
 
   if (anwser == 'non-sister, chiasma, homologous pair') {
     document.getElementById('message').innerHTML = "Correct!"
-  } else
-     document.getElementById('message').innerHTML = "Incorrect!"
+    let score = parseInt(localStorage.getItem('finalScore')) || 0 
+    localStorage.setItem('finalScore', score + 1)
 
+  } else {
+     document.getElementById('message').innerHTML = "Incorrect!"
+  }
   const button = document.querySelectorAll('.hardQuestionButton');
 
     button.forEach(button => {
@@ -86,9 +105,12 @@ function checkQuestion14() {
 
   if (anwser == 'individuals, population, small, gene pool, genetic') {
     document.getElementById('message').innerHTML = "Correct!"
-  } else
-     document.getElementById('message').innerHTML = "Incorrect!"
+    let score = parseInt(localStorage.getItem('finalScore')) || 0 
+    localStorage.setItem('finalScore', score + 1)
 
+  } else {
+     document.getElementById('message').innerHTML = "Incorrect!"
+  }
   const button = document.querySelectorAll('.hardQuestionButton');
 
     button.forEach(button => {
@@ -107,9 +129,12 @@ function checkQuestion15() {
 
   if (anwser == 'random, alleles, genetic variation, population') {
     document.getElementById('message').innerHTML = "Correct!"
-  } else
+    let score = parseInt(localStorage.getItem('finalScore')) || 0 
+    localStorage.setItem('finalScore', score + 1)
+
+  } else {
      document.getElementById('message').innerHTML = "Incorrect!"
-  
+  }
   const button = document.querySelectorAll('.hardQuestionButton');
 
     button.forEach(button => {
