@@ -237,3 +237,25 @@ input {
     font-size: 7rem;
     margin-top: 4rem;
 }
+
+.informationPageHead {
+    color: #099268;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.informationPageMainText {
+    color: rgb(0, 58, 10);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: 2rem;
+    margin-right: 30rem;
+    margin-top: 1rem;
+}
+
+.informationPageImage {
+    margin-left: 55rem;
+}
