@@ -242,6 +242,7 @@ input {
     color: #099268;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2rem;
+    text-align: left;
 }
 
 .informationPageMainText {
@@ -249,12 +250,14 @@ input {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     margin-bottom: 5rem;
+    text-align: left;
 }
 
 .informationPageHelpText {
     color: rgb(0, 58, 10);
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    text-align: left;
 }
 
 .informationPageTop {
@@ -263,9 +266,13 @@ input {
 
 .informationPage {
     display: flex;     
-    align-items: center;    
-    gap: 40px;              
+    align-items: center;                 
     padding: 20px; 
+    gap: 40px;
+}
+
+.informationPageImage {
+    margin-bottom: 20rem;
 }
 
 .answerSheet {
