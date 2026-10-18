@@ -1,8 +1,8 @@
 let finalScoreOutput = document.getElementById('result');
 if (finalScoreOutput) {
-  //Where correct answers get added
+  //Retrieves the saved score, if nothing there sets it to defult 0 
   let finalScore = localStorage.getItem('finalScore') || 0;
-  //Combines final point total and shown out of 15
+  //Combines final point total and displays out of 15
   finalScoreOutput.innerHTML = finalScore + "/15";
 }
 function retakeQuiz() {

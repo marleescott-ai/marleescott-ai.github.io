@@ -10,6 +10,7 @@
 <body>
     <nav>
         <h1>Biology Bonanza</h1>
+    <!--Nav Bar links to the main pages-->
         <ul> 
             <a href="index.html">Home</a>
             <a href="questionOne.html">Quiz</a>
@@ -27,11 +28,12 @@
     <h4>Type In The Missing Words With A Comma Between The Missing Words, Listing Them With No Capitals</h4>
     <h3>The DNA molecule has one ... ... and one ... ... after DNA ..... is complete</h3>
     <div class="questionLayout">
+    <!--Links to JS and creates a text box where user can submit -->
         <form onsubmit="checkQuestion11()">
             <input type="text" id="answer11">
             <button type="submit" class="hardQuestionButton"><p class="questionText">Submit</p></button>
         </form>
-        
+    <!--Displays correct or incorrect-->
         <p class="answerText" id="message"></p>
         
     </div>
